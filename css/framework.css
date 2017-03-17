@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+	height: 100vh;
+}
+
+
+#background {
+	margin: 15%;
+	margin-top: 4%;
+	padding: 2.5%;
+	padding-top: 1.5%;
+	height: 100vh;
+	background-color: white;
+}
+
+#logo {
+	background: url("../images/umeaafc_logo.jpg") no-repeat;
+	display: inline-block;
+	width: 80px;
+	height: 60px;
+	background-size: 80px 60px;
+}
+
+.button {
+	margin-top: 25px;
+	cursor: pointer;
+	color: black;
+}
+
+li {
+}
+
+#canvas {
+	
+}
