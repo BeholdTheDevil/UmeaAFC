@@ -12,7 +12,7 @@ body {
   margin-top: 3.5em;
   height: 100vh;
   width: 100%;
-	padding: 0.75em;
+	padding: 0 0.75em  0.75em 0.75em;
 	background-color: white;
 }
 #header {
@@ -34,28 +34,41 @@ body {
 	color: black;
 }
 .top-right-small {
+	margin-top: 0.75em;
 	position: relative;
 	float: right;
-	background-color: blue;
-	height: auto;
 	width: 25%;
 }
 .top-right-medium {
+	margin-top: 0.75em;
 	position: relative;
 	float: right;
-	background-color: blue;
 	height: auto;
 	width: 25%;
 }
 .top-left-big {
+	margin-top: 0.75em;
 	position: relative;
 	float: left;
 	height: auto;
 	width: calc(75% - 0.75em);
 }
 .top-left-big {
+	margin-top: 0.75em;
 	position: relative;
 	float: left;
 	height: auto;
 	width: calc(75% - 0.75em);
+	margin-bottom: 0.75em;
+}
+.tall {
+	height: 55%;
+}
+.short {
+	height: 25%;
+}
+.red {
+	height: 100%;
+	width: 100%;
+	background-color: red;
 }
