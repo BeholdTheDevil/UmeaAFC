@@ -1,0 +1,21 @@
+#slider {
+    width: 960px;
+    height: 620px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.sliderul {
+    display: block;
+  width: 6000px;
+  height: 620px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.slide {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 960px;
+  height: 620px;
+}

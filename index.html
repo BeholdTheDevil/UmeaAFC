@@ -12,6 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.3.0/fullcalendar.print.css">
 	<script type="text/javascript" src="javascript/calendar.js"></script>
+	<script type="text/javascript" src="javascript/slider.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="css/framework.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
@@ -26,18 +27,24 @@
 			<li><span id="logo"></span><h1 id="teamName" href="#">meåAFC</h1></li>
   			<li role="presentation" class="active"><a class="button" href="index.html">Hem</a></li>
   			<li role="presentation"><a class="button" href="laget.html">Laget</a></li>
-  			<li role="presentation"><a class="button" href="schema.html">Schema</a></li>
   			<li role="presentation"><a class="button" href="om.html">Om oss</a></li>
   			<li role="presentation"><a class="button" href="shop.html">Butik</a></li>
 		</ul>
 	</div>
 	<div class="content">
-		<div class="top-right-small short">
-			<div id="calendar"></div>
+		<div class="top-left-big tall">
+			<div id="slider" class="slider">
+				<ul class="sliderul">
+						<li class="slide s1"><img src="images/carouselpic1.jpg" height="720px" width="960px"/></li>
+						<li class="slide s2"><img src="images/carouselpic2.jpg" height="720px" width="960px"/></li>
+						<li class="slide s3"><img src="images/carouselpic3.jpg" height="720px" width="960px"/></li>
+						<li class="slide s4"><img src="images/carouselpic1.jpg" height="720px" width="960px"></li> <!-- Make last image the same as first. -->
+				</ul>
+			</div>
 		</div>
 		<div class="top-right-small short">
 			<div class="red">
-
+					å
 			</div>
 		</div>
 		<div class="top-right-small tall">
@@ -45,7 +52,7 @@
 
 			</div>
 		</div>
-		<div class="top-right-big short">
+		<div class="top-left-big short">
 			<div class="red">
 
 			</div>
@@ -54,6 +61,5 @@
 	<div class="footer">
 
 	</div>
-</div>
 </body>
 </html>

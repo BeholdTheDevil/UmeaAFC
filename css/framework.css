@@ -12,7 +12,8 @@ body {
   margin-top: 3.5em;
   height: 100vh;
   width: 100%;
-	padding: 0 0.75em  0.75em 0.75em;
+	padding: 0.75em;
+	padding-top: 0;
 	background-color: white;
 }
 #header {
@@ -38,12 +39,15 @@ body {
 	position: relative;
 	float: right;
 	width: 25%;
+	overflow: hidden;
+	overflow: hidden;
 }
 .top-left-small {
 	margin-top: 0.75em;
 	position: relative;
 	float: left;
 	width: 25%;
+	overflow: hidden;
 }
 .top-right-medium {
 	margin-top: 0.75em;
@@ -51,6 +55,7 @@ body {
 	float: right;
 	height: auto;
 	width: 25%;
+	overflow: hidden;
 }
 .top-left-big {
 	margin-top: 0.75em;
@@ -58,6 +63,7 @@ body {
 	float: left;
 	height: auto;
 	width: calc(75% - 0.75em);
+	overflow: hidden;
 }
 .top-left-big {
 	margin-top: 0.75em;
@@ -65,7 +71,7 @@ body {
 	float: left;
 	height: auto;
 	width: calc(75% - 0.75em);
-	margin-bottom: 0.75em;
+	overflow: hidden;
 }
 .tall {
 	height: 55%;
@@ -76,5 +82,5 @@ body {
 .red {
 	height: 100%;
 	width: 100%;
-	background-color: red;
+	background-color: blue;
 }
