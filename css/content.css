@@ -19,3 +19,19 @@
   width: 960px;
   height: 620px;
 }
+
+/* Årskort */
+.arskort {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/arskort.png);
+  background-size: cover;
+}
+
+/* Sponsorer */ 
+.sponsorer {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/sponsorerupdated.png);
+  background-size: contain;
+}
