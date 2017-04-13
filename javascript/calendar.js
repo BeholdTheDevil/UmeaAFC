@@ -5,27 +5,39 @@ $(document).ready(function() {
 	var m = date.getMonth();
 	var y = date.getFullYear();
 
-	
-
     $('#calendar').fullCalendar({
     	dayClick: function() {
         	alert('a day has been clicked!');
     	},
     	events: [
     			{
-                    title: 'Praent vestibulum',
-                    start: new Date(y, m, 1, 9, 00),
-                    end: new Date(y, m, 1, 10, 00),
+                    title: 'Träning - Juniorer',
+                    start: new Date(y, m, 1, 11, 30),
+                    end: new Date(y, m, 1, 13, 00),
                     allDay: false
                 },
                 {
-                    title: 'Vestibulum iaculis lacinia',
-                    start: new Date(y, m, 2, 16, 00),
+                    title: 'Träning Umeå AFC',
+                    start: new Date(y, m, 6, 20, 15),
+					end: new Date(y, m, 6, 22, 00),
                     allDay: false
                 },
                 {
-                    title: 'Integer rutrum ante eu lacus',
-                    start: new Date(y, m, 4, 16, 00),
+                    title: 'Träning - Juniorer',
+                    start: new Date(y, m, 8, 11, 30),
+					end: new Date(y, m, 8, 13, 00),
+                    allDay: false
+                }
+				{
+                    title: 'Träning - Juniorer',
+                    start: new Date(y, m, 15, 11, 30),
+					end: new Date(y, m, 15, 13, 00),
+                    allDay: false
+                }
+				{
+                    title: 'Träning - Juniorer',
+                    start: new Date(y, m, 22, 11, 30),
+					end: new Date(y, m, 22, 13, 00),
                     allDay: false
                 }
 		],
