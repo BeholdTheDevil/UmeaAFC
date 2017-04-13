@@ -1,4 +1,4 @@
-.html, body {
+html, body {
     height: 100%;
 }
 
@@ -62,6 +62,10 @@ th {
     padding-right: 10px;
     padding-left: 25px;
     text-align: right;
+}
+
+.content {
+    height: 100%;
 }
 
 .about_us_content {

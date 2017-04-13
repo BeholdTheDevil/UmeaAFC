@@ -75,6 +75,10 @@ Slider
   height: 620px;
 }
 
+#calendar {
+    background-color: #f8f8f8;
+}
+
 /* Årskort */
 .arskort {
   width: 100%;

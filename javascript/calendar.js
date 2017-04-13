@@ -27,13 +27,13 @@ $(document).ready(function() {
                     start: new Date(y, m, 8, 11, 30),
 					end: new Date(y, m, 8, 13, 00),
                     allDay: false
-                }
+                },
 				{
                     title: 'Träning - Juniorer',
                     start: new Date(y, m, 15, 11, 30),
 					end: new Date(y, m, 15, 13, 00),
                     allDay: false
-                }
+                },
 				{
                     title: 'Träning - Juniorer',
                     start: new Date(y, m, 22, 11, 30),
