@@ -3,8 +3,8 @@ $(document).ready(function() {
    $(function() {
 
       var width = 960;
-      var animationSpeed = 1500;
-      var pause = 3000;
+      var animationSpeed = 2500;
+      var pause = 6000;
       var currentSlide = 1;
 
       function startSlider() {
